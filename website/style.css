@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Global */
+.font-gradient {
+  background: #319acf;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #319acf 44%,
+    #6f46cf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
